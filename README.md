@@ -1,19 +1,17 @@
-# CSSGT Architecture
+# 1. CSSGT Architecture
 
-Overall architecture
-![Arc1](figs/framework.jpg)
+1. Overall architecture.
+   ![Arc1](figs/framework.jpg)
 
-Detailed architecture
-![Arc2](figs/CSSGT.jpeg)
+2. Detailed architecture.
+   ![Arc2](figs/CSSGT.jpeg)
 
-Architecture comparison between Spike-Driven Graph Attention and other attention mechanisms
-![Arc3](figs/SDGA.jpg)
+3. Architecture comparison between Spike-Driven Graph Attention and other attention mechanisms.
+   ![Arc3](figs/SDGA.jpg)
 
-# Run the code
+# 2. Run the code
 
-This is a guidance of running CSSGT.
-
-Simply run the 6 files to reproduce the results!
+Simply run the 6 files to reproduce the results! The brief description of files are given below:
 
 1. **ablation_gnn.py**: reproduce the ablation study on the hidden dimension of graph convolution layers.
 2. **ablation_migs.py**: reproduce the ablation study on the number of partitions.
@@ -22,7 +20,7 @@ Simply run the 6 files to reproduce the results!
 5. **main.py**: quickly reproduce the accuracy curve of CSSGT and save.
 6. **run.py**: quickly see the performance of CSSGT without saving.
 
-# Main Requirements
+# 3. Main Requirements
 
 python == 3.8
 
