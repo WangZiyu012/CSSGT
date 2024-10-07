@@ -1,4 +1,4 @@
-[Architecture](figs/CSSGT.pdf)
+![Architecture](figs/CSSGT.pdf)
 
 This is a guidance of running CSSGT.
 
