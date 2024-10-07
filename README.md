@@ -1,10 +1,19 @@
-![Architecture](figs/CSSGT)
+# CSSGT Architecture
+
+Overall architecture
+![Arc1](figs/framework.jpg)
+
+Detailed architecture
+![Arc2](figs/CSSGT.jpeg)
+
+Architecture comparison between Spike-Driven Graph Attention and other attention mechanisms
+![Arc3](figs/SDGA.jpg)
+
+# Run the code
 
 This is a guidance of running CSSGT.
 
-Simply run the 6 files mentioned in "Files Description" to reproduce the results!
-
-# Files Description
+Simply run the 6 files to reproduce the results!
 
 1. **ablation_gnn.py**: reproduce the ablation study on the hidden dimension of graph convolution layers.
 2. **ablation_migs.py**: reproduce the ablation study on the number of partitions.
