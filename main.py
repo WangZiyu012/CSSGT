@@ -20,7 +20,7 @@ Epoch = 50
 warnings.filterwarnings("ignore", category=UserWarning)
 
 # load data
-data_list = ["cora", "citeseer", "chameleon", "squirrel"]
+data_list = ["Cora", "Citeseer", "Chameleon", "Squirrel"]
 
 
 for data_name in data_list:

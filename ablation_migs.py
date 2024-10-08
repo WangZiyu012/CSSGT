@@ -21,7 +21,7 @@ warnings.filterwarnings("ignore", category=UserWarning)
 
 # load data
 split_range = [1,10,20,40,60,80,100]
-data_name = "cora"
+data_name = "Cora"
 result_vec = np.zeros(len(split_range)) 
 
 for i, num_split in enumerate(split_range):

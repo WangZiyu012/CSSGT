@@ -20,7 +20,7 @@ Epoch = 50
 warnings.filterwarnings("ignore", category=UserWarning)
 
 # load data
-data_list = ["cora", "citeseer", "chameleon", "squirrel"]
+data_list = ["Cora", "Citeseer", "Chameleon", "Squirrel"]
 gnn_opt = [16,32,64,128]
 
 
