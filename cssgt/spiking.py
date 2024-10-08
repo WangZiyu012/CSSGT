@@ -2,7 +2,6 @@ from math import pi
 
 import torch
 import torch.nn as nn
-from spikingjelly.activation_based.neuron import IzhikevichNode, IFNode
 
 
 def creat_snn_layer(v_threshold=0.7, snn="PLIF"):
@@ -13,10 +12,6 @@ def creat_snn_layer(v_threshold=0.7, snn="PLIF"):
         return IF(v_threshold=v_threshold, detach=True)
     elif snn == "LIF":
         return LIF(v_threshold=v_threshold, detach=True)
-    elif snn == "Izhi":
-        return IzhikevichNode(v_threshold=v_threshold, detach_reset=True)
-    elif snn == "IFNode":
-        return IFNode(v_threshold=v_threshold, detach_reset=True)
 
 
 
