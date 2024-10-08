@@ -31,7 +31,7 @@ for data_name in data_list:
    seed_everything(seed)
    result_vec = np.zeros(len(gnn_opt))  
 
-   feature_subsets, group_sizes = split_features(data, T=60)
+   feature_subsets, group_sizes = split_features(data, T=30)
 
    # iterate snn and sa threshold
    for i, a1 in enumerate(gnn_opt):

@@ -29,7 +29,7 @@ for data_name in data_list:
    data = data.to(device)
    seed_everything(seed)
 
-   feature_subsets, group_sizes = split_features(data, T=60)
+   feature_subsets, group_sizes = split_features(data, T=30)
 
    model = CSSGT(in_channels=group_sizes ,threshold=0.5, if_multi_output= False).to(device)
 

@@ -4,7 +4,7 @@ from sklearn.preprocessing import StandardScaler
 import torch
 import warnings
 
-def split_features(data, T=20, labda=1.0):
+def split_features(data, T=30, labda=1.0):
     """
     Partition features into T subsets to maximize mutual information with labels
     and minimize redundancy between partitions.

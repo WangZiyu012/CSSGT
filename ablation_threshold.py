@@ -28,7 +28,7 @@ for data_name in data_list:
    data = data.to(device)
    seed_everything(seed)
 
-   feature_subsets, group_sizes = split_features(data, T=60)
+   feature_subsets, group_sizes = split_features(data, T=30)
 
    # define the range of snn and sa threshold
    threshold_range = [0.1, 0.3, 0.5, 0.7, 0.9]
