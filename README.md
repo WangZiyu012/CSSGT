@@ -1,13 +1,13 @@
+# 0. Introduction
+
+This is the source code of the paper _Enhancing Graph Transformers with SNNs and Mutual Information_ accepted at ECML-PKDD 2025.
+
 # 1. Run the code
 
 Simply run the 6 files to reproduce the results! The brief description of files are given below:
 
 1. **run.py**: quickly see the performance of CSSGT without saving.
 2. **main.py**: quickly reproduce the accuracy curve of CSSGT and save.
-3. **ablation_gnn.py**: reproduce the ablation study on the hidden dimension of graph convolution layers.
-4. **ablation_migs.py**: reproduce the ablation study on the number of partitions.
-5. **ablation_sn.py**: reproduce the ablation study on the type of SNs (IF, LIF, and PLIF).
-6. **ablation_threshold.py**: reproduce the ablation study on the threshold of SNs.
 
 # 2. Main Requirements
 
