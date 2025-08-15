@@ -4,7 +4,7 @@ This is the source code of the paper _Enhancing Graph Transformers with SNNs and
 
 # 1. Run the code
 
-Simply run the 6 files to reproduce the results! The brief description of files are given below:
+Simply run the files to reproduce the results! The brief description of files are given below:
 
 1. **run.py**: quickly see the performance of CSSGT without saving.
 2. **main.py**: quickly reproduce the accuracy curve of CSSGT and save.
